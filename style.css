@@ -48,6 +48,11 @@ body {
   justify-content: center;
 }
 
+.search-bar-container.active .magnifier {
+  left: 50%; /* Move to center */
+  transform: translateX(-50%); /* Center it precisely */
+}
+
 .active input {
   /* visibility: none; or */
   width: 0;
