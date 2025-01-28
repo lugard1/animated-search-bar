@@ -53,6 +53,11 @@ body {
   transform: translateX(-50%); /* Center it precisely */
 }
 
+.search-bar-container.active:hover {
+  background-color: blanchedalmond;
+  transition: 0.5s ease-in-out;
+}
+
 .active input {
   /* visibility: none; or */
   width: 0;
